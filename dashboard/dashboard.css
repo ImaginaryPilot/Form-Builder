@@ -1,0 +1,99 @@
+#main-plugin-container{
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding-top:10vh;
+}
+
+#addButton{
+    padding-top: 5vh;
+    padding-right: 3vh;
+    max-width: 30vh;
+}
+
+.PopupButton{
+    text-align: center;
+}
+th {
+    font-weight: bold;
+}
+
+table{
+    display: flex;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 100%;
+    min-width: 400px;
+    margin-right: -40vh;
+}
+
+#tableTitle{
+    width: 40vh;
+    height: 5vh
+}
+
+#tableShortCode{
+    width: 40vh;
+    height: 5vh;
+}
+
+#tableActivate{
+    width: 10vh;
+    height: 5vh;
+}
+
+#tableDelete{
+    width: 10vh;
+    height: 5vh;
+}
+
+h1{
+    margin-left: -15px;
+}
+
+td {
+    height: 10vh;
+}
+
+.click{
+    cursor: pointer;
+}
+
+.hide{
+    display: none !important;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 9999; /* Ensure the overlay is on top */
+}
+
+.deletePopup {
+    height:25vh;
+    width:50vh;
+    border-radius: 8px;
+    position: absolute;
+    left: 0; 
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    top: 0; 
+    bottom: 0;
+    margin-top: 20vh; 
+    margin-bottom: auto; 
+    background-color: white;
+    z-index: 10000;
+}
+
+.deleteFormTitle {
+    padding-top: 20px;
+    padding-left: 30px;
+    position: relative;
+}
